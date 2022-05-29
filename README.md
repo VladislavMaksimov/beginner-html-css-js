@@ -22,7 +22,7 @@ Use this boilerplate for your HTML + CSS + JS pet projects. I recommend using th
 <table>
     <tbody>
         <tr>
-            <td style="text-align: center">
+            <td style="text-align: center" align="center">
                 <img style="width: 120px" src="https://dbaeumer.gallerycdn.vsassets.io/extensions/dbaeumer/vscode-eslint/2.2.3/1642067257652/Microsoft.VisualStudio.Services.Icons.Default">
             </td>
             <td>
@@ -30,7 +30,7 @@ Use this boilerplate for your HTML + CSS + JS pet projects. I recommend using th
             </td>
         </tr>
         <tr>
-            <td style="text-align: center">
+            <td style="text-align: center" align="center">
                 <img style="width: 120px" src="https://esbenp.gallerycdn.vsassets.io/extensions/esbenp/prettier-vscode/9.5.0/1648513363698/Microsoft.VisualStudio.Services.Icons.Default">
             </td>
             <td>
