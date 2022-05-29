@@ -53,7 +53,7 @@ Use this boilerplate for your HTML + CSS + JS pet projects. I recommend using th
 There is a rule in `.vscode/settings.json` that force Prettier format your code when you save an updated .html, .css or .js file. If it doesn't work, follow this instruction:
 
 1. Make sure you have installed a Prettier extension.
-2. In a .js, .html or .css file, use this hotkeys combination: `CRTL` + `SHIFT` + `P`.
+2. In a .js, .html or .css file, use this hotkeys combination: `CTRL` + `SHIFT` + `P`.
 3. Select `Format Document`
 4. Select `Configure Default Formatter...`
 5. Select `Prettier - Code formatter`
