@@ -12,8 +12,19 @@ Use this boilerplate for your HTML + CSS + JS pet projects. I recommend using th
 6. Run `yarn` in the root directory of this repo.
 7. Enjoy your codding :з
 
+## How to deploy
+
+If you do it the first time, follow these instructions:
+
+1. Run `yarn deploy` script in a terminal.
+2. Open `Settings > Pages` on your GitHub repo.
+3. Select `gh-pages` branch as the source for GitHub Pages and click on `Save` button.
+
+Otherwise, just run `yarn deploy`. If you see that the code on `gh-pages` branch was updated, but your website on GitHub Pages wasn't, just wait or clear the cache in your browser.
+
 ## Scripts
 
+-   `yarn deploy`: push your code from `src` folder to `gh-pages` branch
 -   `yarn fix`: format your HTML, CSS and JS with Prettier
 -   `yarn lint`: lint JS files manually
 

@@ -1,16 +1,19 @@
 {
-    "name": "trainee-html-css-js",
+    "name": "beginner-html-css-js",
     "version": "1.0.0",
-    "description": "A boilerplate for trainee which learn HTML, CSS and JS.",
+    "description": "A boilerplate for beginner which learn HTML, CSS and JS.",
     "author": "Vladislav Maksimov",
     "license": "MIT",
     "devDependencies": {
         "eslint": "^8.16.0",
         "eslint-plugin-prettier": "^4.0.0",
+        "gulp": "^4.0.2",
+        "gulp-gh-pages": "^0.5.4",
         "prettier": "^2.6.2"
     },
     "scripts": {
         "fix": "prettier --write --ignore-unknown **/*",
-        "lint": "yarn run eslint **/*.js --ignore-pattern node_modules/"
+        "lint": "yarn run eslint **/*.js --ignore-pattern node_modules/",
+        "deploy": "gulp deploy"
     }
 }
